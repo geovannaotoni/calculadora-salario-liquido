@@ -5,11 +5,42 @@
   border: 0;
 }
 
+header {
+  text-align: center;
+  font-size: xx-large;
+  margin: 30px 0;
+  color: rgba(97, 21, 221, 1);
+}
+
+main {
+  background-color: rgba(98, 21, 221, 0.1);
+  padding: 40px 60px;
+  border-radius: 7px;
+  width: 70%;
+  margin: 10px auto;
+  font-size: x-large;
+}
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  margin: 7px 0;
+}
+
+#calculo {
+  text-align: center;
+}
+
+#buttons {
+  margin: 15px 0;
+  text-align: center;
+}
+
 button {
   cursor: pointer;
   padding: 10px 40px;
   border-radius: 7px;
-  font-size: 16px;
+  font-size: x-large;
   text-transform: uppercase;
 }
 
@@ -24,6 +55,7 @@ button#calcular:hover {
 
 button#clear {
   color:  rgba(97, 21, 221, 1);
+  background-color: white;
 }
 
 button#clear:hover {
@@ -34,6 +66,61 @@ input {
   cursor: pointer;
   padding: 1px 4px;
   border-radius: 7px;
-  font-size: 16px;
+  font-size: x-large;
   border: 1px solid gray;
+}
+
+label {
+  font-size: x-large;
+}
+
+hr {
+  width: 100%;
+  border: 0.1px solid rgba(98, 21, 221, 0.816);
+  margin: 25px 0;
+}
+
+table {
+  border: 1px solid rgba(98, 21, 221, 0.816);
+  font-size: 25px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+.final-result {
+  font-weight: 700;
+}
+
+th {
+  padding: 5px;
+  background-color: rgba(98, 21, 221, 0.816);
+  border: 1px solid rgba(98, 21, 221, 0.816);
+  color: white;
+}
+
+td {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  border: rgba(98, 21, 221, 0.816);
+  border: 1px solid rgba(98, 21, 221, 0.816);
+}
+
+footer {
+  background-color: rgba(97,21,221,1);
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
 }
