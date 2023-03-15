@@ -86,3 +86,14 @@ calcularBtn.addEventListener('click', deduzIrrf);
 calcularBtn.addEventListener('click', insereDescontos);
 calcularBtn.addEventListener('click', insereSalarioBruto);
 calcularBtn.addEventListener('click', insereTotais);
+clearBtn.addEventListener('click', () => {
+  valorBruto.innerHTML = `R$ 0.00`;
+  inssValor.innerHTML = `R$ 0.00`;
+  inssTaxa.innerHTML = `0.00 %`;
+  irrfValor.innerHTML = `R$ 0.00`;
+  irrfTaxa.innerHTML = `0.00 %`;
+  totalProventos.innerHTML = `R$ 0.00`;
+  totalDescontos.innerHTML = `R$ 0.00`;
+  valorLiquido.innerHTML = `R$ 0.00`;
+  valorDesconto.innerHTML = 'R$ 0.00';
+})
