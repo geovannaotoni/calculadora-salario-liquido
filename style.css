@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 40px;
+  border-radius: 7px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button#calcular {
+  background-color: rgba(97, 21, 221, 1);
+  color: white;
+}
+
+button#calcular:hover {
+  background-color: rgba(98, 21, 221, 0.816)
+}
+
+button#clear {
+  color:  rgba(97, 21, 221, 1);
+}
+
+button#clear:hover {
+  background-color: rgba(128, 128, 128, 0.334);
+}
+
+input {
+  cursor: pointer;
+  padding: 1px 4px;
+  border-radius: 7px;
+  font-size: 16px;
+  border: 1px solid gray;
+}

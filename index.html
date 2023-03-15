@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Salário Líquido</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sua Calculadora de Salário Líquido</h1>
+  </header>
+
+  <main>
+    <section id="calculo">
+      <h3>Meu cálculo</h3>
+      <label for="bruto">Salário Bruto</label>
+      <input type="number" id="bruto" inputmode="numeric" placeholder="Valor em R$" min="0" max="10000000">
+
+      <label for="descontos">Descontos</label>
+      <input type="number" id="descontos" inputmode="numeric" placeholder="Valor em R$" min="0" max="10000000">
+    </section>
+
+    <section id="buttons">
+      <button id="calcular">Calcular</button>
+      <button id="clear">Limpar</button>
+    </section>
+
+    <section id="result">
+      <h3>Meu Resultado</h3>
+      <table>
+        <tr>
+          <th>Eventos</th>
+          <th>Alíquota</th>
+          <th>Proventos</th>
+          <th>Descontos</th>
+        </tr>
+        <tr>
+          <td>Salário bruto</td>
+          <td>-</td>
+          <td id="valor-bruto">R$ 0,00</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Outros</td>
+          <td>-</td>
+          <td>-</td>
+          <td id="valor-desconto">R$ 0,00</td>
+        </tr>
+        <tr>
+          <td>INSS</td>
+          <td id="inss-taxa">0,00%</td>
+          <td>-</td>
+          <td id="inss-valor">R$ 0,00</td>
+        </tr>
+        <tr>
+          <td>IRRF</td>
+          <td id="irrf-taxa">0,00%</td>
+          <td>-</td>
+          <td id="irrf-valor">R$ 0,00</td>
+        </tr>
+        <tr>
+          <td colspan="2">Total</td>
+          <td id="total-proventos">R$ 0,00</td>
+          <td id="total-descontos">R$ 0,00</td>
+        </tr>
+        <tr>
+          <td colspan="2">Valor Salário Líquido</td>
+          <td colspan="2" id="valor-liquido">R$ 0,00</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <article>
+        <h4>O que é o salário líquido?</h4>
+      </article>
+
+      <article>
+        <h4>Quais descontos são feitos para chegar nesse valor?</h4>
+      </article>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
