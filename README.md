@@ -1,1 +1,2 @@
 # calculadora-salario-liquido
+Projeto Pessoal de Construção de uma Calculadora de Salário Líquido. Acesse aqui: [https://geovannaotoni.github.io/calculadora-salario-liquido/](https://geovannaotoni.github.io/calculadora-salario-liquido/)
