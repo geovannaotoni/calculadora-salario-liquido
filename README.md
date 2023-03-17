@@ -1,5 +1,6 @@
 # Calculadora de Salário Líquido
 Projeto Pessoal de construção de uma Calculadora de Salário Líquido.
+<img src="./calculadora-sal-liq.gif">
 
 ## :computer: Visualize este projeto:
 Acesse pelo GitHub Pages aqui: 
